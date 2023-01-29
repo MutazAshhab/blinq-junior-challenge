@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+* {
+    font-family: "Jetbrains Mono", Courier, monospace;
+}
+
+body {
+    background-image: url(assets/orcas_jumping.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* CSS for layout */
+.app {
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.row-flex {
+    flex-direction: row;
+}
+
+.col-flex {
+    flex-direction: column;
+}
+
+.full-height {
+    height: 100vh;
+    width: 100vh;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.justifty-content-end {
+    justify-content: end;
+}
+
+/* CSS for text */
+.tagline {
+    color: transparent;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    text-shadow: 6px 7px 50px black;
+    font-size: 160px;
+    margin: 0;
+}
+
+.title {
+    color: black;
+    font-size: 360px;
+    margin: 0;
+}
+
+/* CSS for featuring box in the right corner */
+.featuring-box {
+    height: 360px;
+    width: 225px;
+    background-color: white;
+    opacity: 0.6;
+    padding: 15px;
+}
+
+.featuring-list {
+    margin-top: 10px;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.featuring-list-item {
+    margin: 0;
+    font-size: 20px;
+}
+
+.featuring-subheading {
+    color: black;
+    font-size: 30px;
+    margin: 5px;
+}

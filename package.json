@@ -1,0 +1,8 @@
+{
+  "name": "recreate-layout",
+  "version": "1.0.0",
+  "description": "Recreate a layout using Semantic HTML and CSS Flexbox",
+  "main": "index.js",
+  "author": "Francesco Lanciana",
+  "license": "ISC"
+}
